@@ -1,0 +1,21 @@
+{
+  "name": "surfguru-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "jsdoc": "^3.5.5"
+  },
+  "scripts": {
+    "lint": "eslint lib",
+    "lint:fix": "eslint --fix lib",
+    "doc": "rm -rf doc && jsdoc lib -d doc"
+  },
+  "engines": {
+    "node": ">=7.10.1"
+  }
+}
