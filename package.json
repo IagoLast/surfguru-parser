@@ -13,7 +13,7 @@
   "scripts": {
     "lint": "eslint lib",
     "lint:fix": "eslint --fix lib",
-    "doc": "rm -rf doc && jsdoc lib -d doc"
+    "doc": "rm -rf doc && jsdoc -R README.md lib -d doc"
   },
   "engines": {
     "node": ">=7.10.1"

@@ -12,11 +12,11 @@ A node.js scrapper to get surf forecast predictions from windguru.
 ## Usage
 
 ```javascript
-    const surfguru = require('surfguru-parser');
-    const beachID = '48738'
-    surfguru(beachID)
-        .then(predictions => console.log(predictions[0]))
-        .catch(console.error);
+const surfguru = require('surfguru-parser');
+const beachID = '48738'
+surfguru(beachID)
+    .then(predictions => console.log(predictions[0]))
+    .catch(console.error);
 ```
 
 ## Compatibility
